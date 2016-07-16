@@ -1,0 +1,9 @@
+Scenes and levels are used interchangably. One scene for each level. A scene for example a castle, then another for planes and others for menu screens.
+
+To create a new scene go into files -> New Scene, then into Files -> Save Scene.
+
+To add text select the scene, go to GameObject -> UI -> Text.
+It adds Canvas, Text, EventSystem.
+Under Canvas there is Render mode. Screen Space - Overlay means the canvas will be rendered ontop of everything just before the screen is shown.
+
+When rescaling, use alt to rescale relative to the pivot point.
