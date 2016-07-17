@@ -7,3 +7,17 @@ It adds Canvas, Text, EventSystem.
 Under Canvas there is Render mode. Screen Space - Overlay means the canvas will be rendered ontop of everything just before the screen is shown.
 
 When rescaling, use alt to rescale relative to the pivot point.
+
+To add a button, add a text element and then to that add a component button.
+When we add a game object just to call functions we set its position to 0:0.
+To add a transition to the botton select the On Click() on the button. Add an entry, drag the gameobject you've created with the script and then select the function for transition.
+
+To use the below functions on scenes, you have to specify to Unity that the scenes must be built. Go the build settings and drag all your scenes into it.
+The order in which they are positioned matters. Should be ordered the same way you want them to load.
+Can just close the scene list after you're done adding them. Don't have to build.
+
+Application.LoadLevel()
+Function used to load a scene/level. Pass in a string as the name of the scene.
+
+Application.Quit()
+It works for the PC and console builds, but it's limited on the web and debug build where it has no effect. It also works for mobile games, but it shouldn't work through it. Rather the OS should have the quit.
