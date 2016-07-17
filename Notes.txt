@@ -21,3 +21,7 @@ Function used to load a scene/level. Pass in a string as the name of the scene.
 
 Application.Quit()
 It works for the PC and console builds, but it's limited on the web and debug build where it has no effect. It also works for mobile games, but it shouldn't work through it. Rather the OS should have the quit.
+
+Game design document
+A tool to communicate between members of your team.
+A place to record decisions made before and during development. What's in, what's out.

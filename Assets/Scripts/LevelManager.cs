@@ -4,7 +4,6 @@ using System.Collections;
 public class LevelManager : MonoBehaviour {
 	//Just using it to load a new level.
 	public void LoadLevel(string name) {
-		Debug.Log("Level load requested for: " + name);
 		Application.LoadLevel(name);
 	}
 
